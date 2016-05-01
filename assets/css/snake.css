@@ -1,6 +1,13 @@
 html, body {
   min-height: 100% !important;
   height: 100%;
+
+  overflow-y: hidden;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
 }
 
 #container {
@@ -22,5 +29,10 @@ html, body {
   height: 375px;
 
   margin: 0 auto;
-  margin-top: -20px;
+  margin-top: -40px;
+}
+
+#info {
+  margin: 30px 0px 0px 25px;
+  text-align: center;
 }
